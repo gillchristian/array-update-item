@@ -2,7 +2,7 @@
   "name": "array-update-item",
   "version": "0.1.1",
   "description": "Update an item of an array",
-  "main": "index.js",
+  "main": "dist/array-update-item.js",
   "scripts": {
     "test": "npm run lint && ava -v 'tests/**/*.test.js'",
     "ava:watch": "ava -v -w 'tests/**/*.test.js'",

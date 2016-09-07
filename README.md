@@ -21,8 +21,6 @@ const abcde = updateItemInArray(['a', 'b', 'b', 'd'], 'c', 2)
 console.log(abcde) // ['a', 'b', 'c', 'd']
 ```
 
-*NOTE*: it requires the [rest operator](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Spread_operator) to work. If you are not transpiling your code with Babel's `es2015` preset (to work on the browser) or are using a node version older than 5, you will have to use the compiled version: `require(array-update-item/dist/array-update-item.js)`.
-
 ### behavior
 
 - `updateItemInArray` is a pure function, it does not mutate the provided array.
